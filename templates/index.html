@@ -8,6 +8,8 @@
     
     
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
+    
+          
     <link rel="stylesheet" href="{{ url_for('static', filename='fonts/icomoon/style.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/jquery-ui.css') }}">
@@ -41,25 +43,24 @@
         <div class="row align-items-center">
           
           <div class="col-6 col-xl-2">
-            <h3 class="mb-0 site-logo"><a href="/" class="h3">MalayKumar<span class="text-primary"></span> </a></h3>
+            <h3 class="mb-0 site-logo"><a href="index.html" class="h3">MalayKumar<span class="text-primary"></span> </a></h3>
           </div>
 
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="/home-section" class="nav-link">Home</a></li>
-                <li><a href="/about-section" class="nav-link">About</a></li>
-                <!-- <li><a href="#training-section" class="nav-link">Our Training</a></li> -->
-                <li><a href="/services-section" class="nav-link">Services</a></li>
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#about-section" class="nav-link">About</a></li>
+                <li><a href="#services-section" class="nav-link">Services</a></li>
                 <!-- <li><a href="#blog-section" class="nav-link">Blog</a></li> -->
-                <li><a href="/contact-section" class="nav-link">Contact</a></li>
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
               </ul>
             </nav>
           </div>
 
 
-          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="/" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
 
         </div>
       </div>
@@ -68,16 +69,19 @@
 
   
      
-    <div class="site-blocks-cover overlay" style="background-image: url(/static/images/19694.jpg);"  id="home-section">
+    <div class="site-blocks-cover overlay" style="background-image: url(images/19694.jpg);" data-aos="fade" id="home-section">
       <div class="container">
-        
         <div class="row">
+
+          <!-- <div class="col-md-6 mt-lg-5 ml-auto text-left align-self-end align-self-md-center"> -->
               <div class="col-md-7 mt-lg-5 ml-auto text-center align-self-end align-self-md-center">
-                 
+            <h15>FOR CORPORATE LIFE, WE'RE BUILDING</h15> 
+            
+            <!-- <h9>SUCCESS</h9> -->
             <h9 class="animated animated-text">
               <div class="animated-info">
                 <span class="animated-item">ATTITUDE</span>
-                <span class="animated-item">COMPETENCIES</span>
+                <span class="animated-item">CONFIDENCE</span>
                 <span class="animated-item">MINDSET</span>
               </div>
               </h9>
@@ -118,23 +122,24 @@
       <div class="container">
         <div class="row mb-5">
           
-          <div class="col-lg-5 ml-auto mb-5 order-md-2" >
-            <img src="static/images/Malay.jpg" alt="Image" class="img-fluid rounded">
+          <div class="col-lg-5 ml-auto mb-5 order-md-2" data-aos="fade">
+            <img src="images/Malay.jpg" alt="Image" class="img-fluid rounded">
           </div>
-          <div class="col-lg-6 order-md-1" >
+          <div class="col-lg-6 order-md-1" data-aos="fade">
             <h2 class="section-title mb-3">ABOUT <br> ME</h2>
             <!-- <p class="lead">Harum quaerat nostrum voluptatibus aspernatur eligendi accusantium cum, impedit blanditiis voluptate commodi doloribus, nemo.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio necessitatibus deserunt itaque dignissimos adipisci, tenetur.</p> -->
             <p class="mb-4">As a Mental Strength Professional, Malay seeks to bring complete clarity in the personal and professional lives of all. An ICF Executive and Leadership Coach from Coacharya, Malay was drawn to work as a life coach which brought him in contact with millennials for their training and coaching needs. Malay has a rich experience of working across different demographics and people from various industries, as well as age groups. His style, one that is infused with humor along with the power of skillful questioning, makes him a popular Mental Strength Professional. He specializes in working with people to make them realize their goals and aspirations along with the creation of an action plan to reach those goals. His sensitive approach and the ability to create an open and safe space has fetched many success stories in his career. His specialized areas are marriage and family, confidence, self-esteem, and career guidance. Malay also holds a Post Gradu in Sales and Marketing Management with over 20+ years in the coaching industry with 2 years in the mental health area
-              <p><img src="static/images/signature.jpg" alt="Image" class="img-fluid w-25"></p>
+              <p><img src="images/signature.jpg" alt="Image" class="img-fluid w-25"></p>
           </div>
+          
         </div>
       </div>
     </section>
   
 
 
-    <section class="site-section" style="background-image: url(/static/images/11114.jpg);">
+    <section class="site-section" style="background-image: url(images/11114.jpg);">
         
       <div class="container">
           <div class="row mb-5">
@@ -144,11 +149,11 @@
             </div>
         
         <div class="row">
-          <div class="col-lg-6" style="position: relative;"> 
-            <div class="owl-carousel slide-one-item-alt-text">
-              <img src="/static/images/mentoring.jpg" alt="Image" class="img-fluid">
-              <img src="/static/images/mentall.jpg" alt="Image" class="img-fluid">
-              <img src="/static/images/llc (2).jpg" alt="Image" class="img-fluid">
+          <div class="col-lg-6" stylr="position: relative;"> 
+            <div class="owl-carousel slide-one-item-alt">
+              <img src="images/mentoring.jpg" alt="Image" class="img-fluid">
+              <img src="images/mentall.jpg" alt="Image" class="img-fluid">
+              <img src="images/llc (2).jpg" alt="Image" class="img-fluid">
             </div>
             <div class="custom-direction">
               <a href="#" class="custom-prev">Prev</a> / <a href="#" class="custom-next">Next</a>
@@ -163,21 +168,21 @@
                 <p class="lead">Executive coaching sessions designed for every potential employee of firms.</p>
                 <p>People who have had executive coaches in their professional career have reported feeling empowered and motivated to achieve their goals, find success, and develop a balanced approach to life.</p>
 
-                <p><a href="executiveCoaching.html" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
+                <p><a href="executivecoaching.html" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
               </div>
               <div>
                 <h2 class="section-title mb-3">Life Leadership Coaching</h2>
                 <p class="lead">Anyone and everyone who requires to change certain areas of their lives and rediscover their potential needs a life coach.</p>
                 <p>A great life coach nudges you in the right direction and is a supporting partner for your personal and professional goals.</p>
 
-                <p><a href="/leadership" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
+                <p><a href="leadership.html" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
               </div>
               <div>
                 <h2 class="section-title mb-3">Mental Strength</h2>
-                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <p>Est qui eos quasi ratione nostrum excepturi id recusandae fugit omnis ullam pariatur itaque nisi voluptas impedit  Quo suscipit omnis iste velit maxime.</p>
+                <p class="lead">The Power Lies in your Mind.</p>
+                <p>We help you build your mental muscle to regulate emotions, manage thoughts better, focus on self-care, and build an optimistic approach.</p>
 
-                <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
+                <p><a href="mentalstrength.html" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
               </div>
               
             </div>
@@ -197,39 +202,39 @@
           </div>
         </div>
         <div class="row align-items-stretch">
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
             <div class="unit-4 d-flex">
               <div class="unit-4-icon mr-4"><span class="text-primary flaticon-career"></span></div>
               <div>
                 <h3>Career Coaching</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p></p>
                 <p><a href="#">Learn More</a></p>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4"  data-aos-delay="100">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="unit-4 d-flex">
               <div class="unit-4-icon mr-4"><span class="text-primary flaticon-bill"></span></div>
               <div>
-                <h3>Market Analysis</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <h3>Performance Management</h3>
+                <p></p>
                 <p><a href="#">Learn More</a></p>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4"  data-aos-delay="200">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="unit-4 d-flex">
               <div class="unit-4-icon mr-4"><span class="text-primary flaticon-customer-service"></span></div>
               <div>
-                <h3>User Monitoring</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <h3>Communication Skills</h3>
+                <p></p>
                 <p><a href="#">Learn More</a></p>
               </div>
             </div>
           </div>
 
 
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos-delay="300">
+          <!-- <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="unit-4 d-flex">
               <div class="unit-4-icon mr-4"><span class="text-primary flaticon-plan"></span></div>
               <div>
@@ -239,7 +244,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4"  data-aos-delay="400">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="400">
             <div class="unit-4 d-flex">
               <div class="unit-4-icon mr-4"><span class="text-primary flaticon-growth"></span></div>
               <div>
@@ -249,7 +254,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4"  data-aos-delay="500">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="500">
             <div class="unit-4 d-flex">
               <div class="unit-4-icon mr-4"><span class="text-primary flaticon-award"></span></div>
               <div>
@@ -258,7 +263,7 @@
                 <p><a href="#">Learn More</a></p>
               </div>
             </div>
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -400,6 +405,10 @@
             <p class="mb-0 font-weight-bold">Email Address</p>
             <p class="mb-0"><a href="#">malaykumar@gmail.com</a></p>
           </div>
+          <div class="col-12 text-center">
+                  <br>
+                  <input type="submit" value="Book An Appointment!" class="btn btn-primary btn-md text-white">
+          </div>
         </div>
         <div class="row">
           <div class="col-md-12 mb-5">
@@ -475,10 +484,9 @@
               <div class="col-md-3 ml-auto">
                 <h2 class="footer-heading mb-4">Quick Links</h2>
                 <ul class="list-unstyled">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Testimonials</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#about-section">About Us</a></li>
+                  <li><a href="#services-section">Services</a></li>
+                  <li><a href="#contact-section">Contact Us</a></li>
                 </ul>
               </div>
               <div class="col-md-3">
@@ -505,7 +513,7 @@
     </footer>
 
   </div>
-
+  
   <script src="{{ url_for('static', filename='js/jquery-3.3.1.min.js') }}"></script>
   <script src="{{ url_for('static', filename='js/jquery-migrate-3.0.1.min.js') }}"></script>
   <script src="{{ url_for('static', filename='js/jquery-ui.js') }}"></script>
@@ -518,8 +526,6 @@
   <script src="{{ url_for('static', filename='js/jquery.fancybox.min.js') }}"></script>
   <script src="{{ url_for('static', filename='js/jquery.sticky.js') }}"></script>
   <script src="{{ url_for('static', filename='js/main.js') }}"></script>
-  
-
     
   </body>
 </html>

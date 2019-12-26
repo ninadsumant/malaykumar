@@ -10,6 +10,13 @@ def index():
 def leadership():
     return render_template('leadership.html')
 
+@app.route('/executive')
+def executive():
+    return render_template('executiveCoaching.html')
+
+@app.route('/mentalstrength')
+def mentalstrength():
+    return render_template('mentalstrength.html')
 
 
 if __name__ == '__main__':

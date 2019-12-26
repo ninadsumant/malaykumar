@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="fonts/icomoon/style.css"> 
+    <!-- <link rel="stylesheet" href="fonts/icomoon/style.css">
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
     <link rel="stylesheet" href="css/jquery-ui.css">
-
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -21,17 +20,21 @@
 
     <link rel="stylesheet" href="css/aos.css">
 
-    <link rel="stylesheet" href="css/style.css"> -->
-    
+    <link rel="stylesheet" href="css/style.css">
+     -->
+
+         
     <link rel="stylesheet" href="{{ url_for('static', filename='fonts/icomoon/style.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/jquery-ui.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/jquery.fancybox.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/aos.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='fonts/flaticon/font/flaticon.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='jquery-1.9.1.min.js') }}">
     
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -54,16 +57,16 @@
         <div class="row align-items-center">
           
           <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0">Malay<span>Kumar</span> <span class="text-primary"></span> </a></h1>
+            <h1 class="mb-0 site-logo"><a href="/" class="h2 mb-0">Malay<span>Kumar</span> <span class="text-primary"></span> </a></h1>
           </div>
 
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="/" class="nav-link">Home</a></li>
+                <li><a href="/#home-section" class="nav-link">Home</a></li>
                 <li><a href="/#about-section" class="nav-link">About</a></li>
-                <li><a href="#services-section" class="nav-link">Services</a></li>
+                <li><a href="/#services-section" class="nav-link">Services</a></li>
                 <li><a href="/#contact-section" class="nav-link">Contact</a></li>
               </ul>
             </nav>
@@ -79,8 +82,7 @@
 
   
      
-    <div class="site-blocks-cover inner-page-cover overlay" img src="/static/images/mentoring.jpg">
-      <!-- <img src="static/images/mentoring.jpg" alt=""> -->
+    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(static/images/mentoring.jpg);" data-aos="fade" id="home-section">
       <div class="container">
         <div class="row">
 
@@ -104,9 +106,9 @@
                 We offer leadership training programs and life coaching sessions under the guidance of us. So, are you ready for the transformation and begin a creative partnership with your coach? Write us for more information.
 
             </p>
-            <p class="mt-5"><a href="/#contact-section" class="btn btn-primary">Get In Touch</a></p>
+            <p class="mt-5"><a href="index.html#contact-section" class="btn btn-primary">Get In Touch</a></p>
           </div>
-          <!--lass="col-lg-4 ml-auto">
+          <!-- <div class="col-lg-4 ml-auto">
             <img src="" alt="Image" class="img-fluid">
           </div> -->
         </div>
@@ -153,8 +155,8 @@
     </footer>
 
   </div> <!-- .site-wrap -->
-
-  <!-- <script src="js/jquery-3.3.1.min.js"></script>
+<!-- 
+  <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>
   <script src="js/popper.min.js"></script>
@@ -168,9 +170,7 @@
 
   
   <script src="js/main.js"></script> -->
-
-
-
+  
   <script src="{{ url_for('static', filename='js/jquery-3.3.1.min.js') }}"></script>
   <script src="{{ url_for('static', filename='js/jquery-migrate-3.0.1.min.js') }}"></script>
   <script src="{{ url_for('static', filename='js/jquery-ui.js') }}"></script>
@@ -185,6 +185,5 @@
   <script src="{{ url_for('static', filename='js/main.js') }}"></script>
   
 
-    
   </body>
 </html>

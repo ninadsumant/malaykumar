@@ -18,9 +18,6 @@ def executive():
 def mentalstrength():
     return render_template('mentalstrength.html')
 
-@app.route('/breath')
-def breath():
-    return render_template('breath.html')
 
 
 if __name__ == '__main__':

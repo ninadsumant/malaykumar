@@ -22,6 +22,10 @@ def mentalstrength():
 def breath():
     return render_template('breath.html')
 
+@app.route('/meditation')
+def meditation():
+    return render_template('meditation.html')
+
 if __name__ == '__main__':
   app.run(debug=True)
  

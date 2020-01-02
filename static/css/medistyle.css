@@ -85,24 +85,15 @@
   bottom: 5%;
 }
 
-/* video {
+video {
   position: absolute;
   top: 0%;
   left: 0%;
-  width: min-content;
+  /* width: 100%; */
+  /* object-fit: scale-down; */
+  /* height: min-content; */
+  display: inline-block;
   z-index: -10;
-} */
-
-video {
-  /* Make video to at least 100% wide and tall */
-  min-width: 100%; 
-  min-height: 100%; 
-
-  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
-  width: auto;
-  height: auto;
-
-
 }
 
 .play {

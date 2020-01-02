@@ -59,7 +59,7 @@
 
 .player-container {
   position: absolute;
-  height: 90%;
+  height: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -85,12 +85,24 @@
   bottom: 5%;
 }
 
-video {
+/* video {
   position: absolute;
   top: 0%;
   left: 0%;
   width: min-content;
   z-index: -10;
+} */
+
+video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+
 }
 
 .play {

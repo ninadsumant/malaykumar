@@ -1,12 +1,15 @@
+<!-- #3a4971; was the colour -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Mental Strength</title>
+    <title>Malay Kumar</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
+    
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
-           
+    
+          
     <link rel="stylesheet" href="{{ url_for('static', filename='fonts/icomoon/style.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/jquery-ui.css') }}">
@@ -18,7 +21,6 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='fonts/flaticon/font/flaticon.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='jquery-1.9.1.min.js') }}">
-
     
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -41,17 +43,19 @@
         <div class="row align-items-center">
           
           <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo"><a href="/" class="h2 mb-0">Malay<span>Kumar</span> <span class="text-primary"></span> </a></h1>
+            <h3 class="mb-0 site-logo"><a href="/" class="h3">MalayKumar<span class="text-primary"></span> </a></h3>
           </div>
 
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="/#home-section" class="nav-link">Home</a></li>
-                <li><a href="/#about-section" class="nav-link">About</a></li>
-                <li><a href="/#services-section" class="nav-link">Services</a></li>
-                <li><a href="/#contact-section" class="nav-link">Contact</a></li>
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="/meditate" class="nav-link">Meditate</a></li>
+                <li><a href="#about-section" class="nav-link">About</a></li>
+                <li><a href="#services-section" class="nav-link">Services</a></li>
+                <!-- <li><a href="#blog-section" class="nav-link">Blog</a></li> -->
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
               </ul>
             </nav>
           </div>
@@ -66,46 +70,37 @@
 
   
      
-    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(/static/images/meditation.jpg);" data-aos="fade" id="home-section">
+    <div class="site-blocks-cover overlay" style="background-image: url(static/images/19694.jpg);" data-aos="fade" id="home-section">
       <div class="container">
         <div class="row">
 
-          <div class="col-md-6 mt-lg-5 mr-auto text-left align-self-end align-self-md-center">
-            <h20>Breath</h20>
+          <!-- <div class="col-md-6 mt-lg-5 ml-auto text-left align-self-end align-self-md-center"> -->
+              <div class="col-md-7 mt-lg-5 ml-auto text-center align-self-end align-self-md-center">
+          
+            
           </div>
             
         </div>
       </div>
     </div>  
-
-    <div class="site-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9 align-self-md-center">
-            <img src="/static/images/breathing.gif" alt="breath in - breath out">
-          </div>
-          <!-- <div class="col-lg-4 ml-auto">
-            <img src="" alt="Image" class="img-fluid">
-          </div> -->
-        </div>
-      </div>
-    </div>
-
-    
     <footer class="site-footer">
       <div class="container">
         <div class="row">
           <div class="col-md-9">
             <div class="row">
-              <div class="col-md-5">
+              <!-- <div class="col-md-5">
+                <h2 class="footer-heading mb-4">About Us</h2>
+                <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
 
-              </div>
+               
+
+              </div> -->
               <div class="col-md-3 ml-auto">
                 <h2 class="footer-heading mb-4">Quick Links</h2>
                 <ul class="list-unstyled">
-                  <li><a href="/#about-section">About Us</a></li>
-                  <li><a href="/#services-section">Services</a></li>
-                  <li><a href="/#contact-section">Contact Us</a></li>
+                  <li><a href="#about-section">About Us</a></li>
+                  <li><a href="#services-section">Services</a></li>
+                  <li><a href="#contact-section">Contact Us</a></li>
                 </ul>
               </div>
               <div class="col-md-3">
@@ -117,12 +112,13 @@
               </div>
             </div>
           </div>
+          
         </div>
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <div class="border-top pt-5">
             <p>
-      </p>
+       </p>
             </div>
           </div>
           
@@ -131,7 +127,7 @@
     </footer>
 
   </div>
-
+  
   <script src="{{ url_for('static', filename='js/jquery-3.3.1.min.js') }}"></script>
   <script src="{{ url_for('static', filename='js/jquery-migrate-3.0.1.min.js') }}"></script>
   <script src="{{ url_for('static', filename='js/jquery-ui.js') }}"></script>
@@ -145,6 +141,5 @@
   <script src="{{ url_for('static', filename='js/jquery.sticky.js') }}"></script>
   <script src="{{ url_for('static', filename='js/main.js') }}"></script>
     
-
   </body>
 </html>

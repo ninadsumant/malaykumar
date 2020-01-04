@@ -582,7 +582,7 @@ h1, h2, h3, h4, h5,
     /* hight of the background */
   .site-blocks-cover, .site-blocks-cover > .container > .row {
     min-height: 700px;
-    height: calc(85vh); }
+    height: calc(100vh); }
   .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover > .container > .row {
     min-height: 400px;
     height: calc(20vh); }

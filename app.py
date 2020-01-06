@@ -26,6 +26,10 @@ def breath():
 def meditate():
     return render_template('meditation.html')
 
+@app.route('/mood')
+def mood():
+    return render_template('mood.html')
+
 if __name__ == '__main__':
   app.run(debug=True)
  

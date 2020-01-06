@@ -1834,6 +1834,13 @@ h1, h2, h3, h4, h5,
       font-weight: bolder;
     }
 
+    h13,.h13{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #000;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+
 
 /* Animated text / Rolling text */
 		.animated {

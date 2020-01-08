@@ -30,6 +30,10 @@ def meditate():
 def mood():
     return render_template('mood.html')
 
+@app.route('/analyser')
+def analyser():
+    return render_template('analyser.html')
+
 if __name__ == '__main__':
   app.run(debug=True)
  

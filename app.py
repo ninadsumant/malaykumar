@@ -34,6 +34,10 @@ def mood():
 def analyser():
     return render_template('analyser.html')
 
+@app.route('/coachingInto')
+def coachingInto():
+    return render_template('intro.html')
+
 @app.route('/result', methods=["GET","POST"])
 def result():
     return render_template('result.html')

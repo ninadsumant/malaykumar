@@ -12,6 +12,7 @@
   justify-content: space-evenly;
   align-items: center;
   font-family: "Montserrat", sans-serif;
+  background-color: grey;
 }
 
 .time-select,

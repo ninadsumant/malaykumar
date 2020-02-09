@@ -32,10 +32,6 @@ def executive():
 def mentalstrength():
     return render_template('mentalstrength.html')
 
-@app.route('/breath')
-def breath():
-    return render_template('breath.html')
-
 @app.route('/meditate')
 def meditate():
     return render_template('meditation.html')

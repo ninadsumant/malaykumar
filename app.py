@@ -40,10 +40,6 @@ def breath():
 def meditate():
     return render_template('meditation.html')
 
-@app.route('/mindrelaxer')
-def mindrelaxer():
-    return render_template('mindrelaxer.html')
-
 @app.route('/mood')
 def mood():
     return render_template('mood.html')

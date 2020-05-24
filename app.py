@@ -53,14 +53,9 @@ def result():
     return render_template('result.html')
 
 
-@app.route('/sendmail')
-def sendmail():
-    msg = Message(subject='Hello', sender='ninadssumant@gmail.com', recipients=['seemashrikantsumant@gmail.com'])
-    mail.send(msg)
-    return 'Message Sent!'
 
 if __name__ == '__main__':
-  app.run(debug=True)
+  app.run(debug=False)
  
 
 
